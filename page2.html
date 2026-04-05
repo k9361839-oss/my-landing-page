@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף נחיתה - חנות תוספים</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #28a745;
+            --text-dark: #333;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #fff;
+        }
+
+        /* חלק עליון - כותרת וקישור למפתח */
+        nav {
+            padding: 15px 5%;
+            background: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        .dev-link {
+            font-weight: bold;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        /* חלק מרכזי - Hero Section */
+        .hero {
+            padding: 60px 5%;
+            text-align: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--secondary-color);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+            transition: transform 0.2s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+        }
+
+        /* חלק היתרונות */
+        .features {
+            padding: 50px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .feature-box {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #f0f0f0;
+            border-radius: 15px;
+            background: #fff;
+        }
+
+        .feature-box h3 {
+            color: var(--primary-color);
+        }
+
+        /* חלק המדריך (איך מתקינים) */
+        .how-to {
+            background: var(--bg-light);
+            padding: 50px 5%;
+            text-align: center;
+        }
+
+        .steps {
+            text-align: right;
+            max-width: 600px;
+            margin: 30px auto;
+            display: inline-block;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">תוסף מה זה AI ללא צורך בapi</div>
+    <a href="https://mitmachim.top/user/%D7%99.%D7%A8.%D7%A7" class="dev-link">פותח ע"י י.ר.ק</a>
+</nav>
+
+<section class="hero">
+    <h1>מה זה AI</h1>
+    <p>הדרך המהירה ביותר להבין כל מושג! סימון מילה ולחיצה ימנית יציגו לכם הסבר מדויק מהמכלול או ממאגר ידע חכם</p>
+    <a href="https://drive.google.com/uc?export=download&id=1gyiDB-HdBgYNo4iIPjuOwo4ZKlbPIAwE" class="cta-button">הורדה מיידית (קובץ ZIP)</a>
+</section>
+
+<section class="features">
+    <div class="feature-box">
+        <h3>מהיר וקל</h3>
+        <p>התוסף לא מכביד על הדפדפן ועובד בצורה חלקה בשנייה שמתקינים.</p>
+    </div>
+    <div class="feature-box">
+        <h3>חינמי לגמרי</h3>
+        <p>התוסף מוצע כשירות לקהילה ללא עלות וללא פרסומות מעצבנות.</p>
+    </div>
+    <div class="feature-box">
+        <h3>פרטיות מובטחת</h3>
+        <p>אנחנו לא אוספים מידע אישי. כל הפעולות מתבצעות מקומית אצלך.</p>
+    </div>
+</section>
+
+<section class="how-to">
+    <h2>איך מתקינים?</h2>
+    <div class="steps">
+        <p>1. מורידים את קובץ ה-ZIP מהכפתור למעלה.</p>
+        <p>2. מחלצים את התיקייה למקום בטוח במחשב.</p>
+        <p>3. נכנסים לכתובת <strong>chrome://extensions</strong> בדפדפן.</p>
+        <p>4. מפעילים <strong>"מצב מפתח"</strong> וגוררים את התיקייה פנימה.</p>
+    </div>
+</section>
+
+<footer>
+    כל הזכויות שמורות ל-י.ר.ק &copy; 2024 | <a href="https://mitmachim.top/user/%D7%99.%D7%A8.%D7%A7">פרופיל במתמחים טופ</a>
+</footer>
+
+</body>
+</html>
